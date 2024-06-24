@@ -17,10 +17,32 @@ button{
      width: 174px;
 }
 
+.dish-card{
+    width: 300px;
+    height: 360px;
+    .dish-name{
+        color: $main-color;
+    }
+    .dish-price-star{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .product-price{
+    margin: 330px;
     .header{
         color: $main-color;
         text-align: center;
     }
-    
+    .dishes-menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -15,7 +15,32 @@ button {
   width: 174px;
 }
 
+.dish-card {
+  width: 300px;
+  height: 360px;
+}
+.dish-card .dish-name {
+  color: #1E266D;
+}
+.dish-card .dish-price-star {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price {
+  margin: 330px;
+}
 .product-price .header {
   color: #1E266D;
   text-align: center;
+}
+.product-price .dishes-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.product-price .button {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
