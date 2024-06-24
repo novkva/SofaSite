@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00D664;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 14px 25px 14px 25px;
+  text-decoration: none;
+  display: inline-block;
+  height: 55px;
+  width: 174px;
+}
+
+.product-price .header {
+  color: #1E266D;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
