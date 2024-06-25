@@ -18,6 +18,19 @@ button{
      align-items: center;
 }
 
+input{
+    background-color: #EDFCF4;
+    color: $main-color;
+    border-radius: 30px;
+    border: none;
+    height: 55px;
+    width: 427px;
+}
+input[type=text]{
+    padding-left: 24px;
+    font-size: 15px;
+}
+
 .dish-card{
     width: 300px;
     height: 360px;
@@ -52,4 +65,32 @@ button{
             gap: 30px;
         }
     }
+}
+
+.subscribe{
+    margin: 330px;
+    display: flex;
+    justify-content: space-between;
+    .left{
+        p{
+            color: $main-color;
+            font-size: 28px;
+            font-weight: bolder;
+            text-align: center;
+        }
+    }
+    .right{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        input[type=checkbox]{
+            width: 13px;
+            height: 13px;
+            border-color: #B6B6B6;
+        }
+        .agree-check{
+            color: #B6B6B6;
+        }
+    }
+    
 }
