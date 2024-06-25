@@ -13,6 +13,7 @@ button {
   display: inline-block;
   height: 55px;
   width: 174px;
+  align-items: center;
 }
 
 .dish-card {
@@ -33,6 +34,7 @@ button {
 .product-price .header {
   color: #1E266D;
   text-align: center;
+  font-size: 34px;
 }
 .product-price .dishes-menu {
   display: grid;
@@ -43,4 +45,9 @@ button {
 .product-price .button {
   display: flex;
   justify-content: center;
+}
+.product-price .button .dish-button {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */
